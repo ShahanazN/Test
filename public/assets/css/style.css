@@ -1,0 +1,799 @@
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+
+/*------------------------------------------------------------------
+    IMPORT FILES
+-------------------------------------------------------------------*/
+
+@import url(animate.css);
+@import url(font-awesome.min.css);
+@import url(superslides.css);
+@import url(baguetteBox.min.css);
+
+/*------------------------------------------------------------------
+    SKELETON
+-------------------------------------------------------------------*/
+
+
+.body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0066cc0a!important;
+    
+}
+.percent100ds
+{
+    height:47px;
+    padding: 3px;
+    margin-top: 10px;
+}
+.mesg
+{
+    padding: 3px;
+    margin-top: 10px;
+}
+.pstyle
+{
+    padding:21px;
+}
+.mailfont
+{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+.footer-top
+{
+    margin-top: -50px;
+}
+.footer-icon-top
+{
+    margin-top: 10px;
+}
+.banner_height
+{
+ 
+    border-radius: 0px;
+}
+.banner_heightbottom
+{
+    height: 446px;
+    border-radius: 0px;
+}
+
+.loginbody 
+{
+    background-image: url("/assets/images/topjump.jpeg");
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    margin-top: -18px;
+    background-color: #0066cc00;
+}
+.loginbodymap 
+{
+    background-image: url("/assets/images/mapfoto.jpeg");
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+}
+
+
+.maobackground 
+{
+    background-image: url("/assets/images/salford.PNG");
+  
+}
+
+.loginbodybottom
+{
+    background-image: url("/assets/images/bottombanner.jpg");
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+    background-color: #0066cc00;
+}
+
+.textcolor
+{
+    color:white;
+}
+
+
+.banner_number
+{
+    color: white;
+    background-color:#cc3333;
+    width: 491px;
+    /* text-align: center; */
+    height: 106px;
+    padding: 17px;
+    font-size: 27px;
+    font-weight: 600;
+    /* height: 52px; */
+    border-radius: 63px;
+}
+
+.banner_background
+{
+    background-color: #cc3333;
+    border-radius: 0px;
+}
+
+.card_image
+{
+    height: 263px;
+    width: 264px
+}
+.card_para
+{
+    font-size:15px;
+    color:white;
+}
+.card_para_black
+{
+    font-size:15px;
+    color:black;
+}
+.homecard
+{
+    padding: 52px;
+}
+.homecard_color
+{
+    background-color: #0066CC;
+}
+
+.card_head
+{
+    color:#cc3333;
+    
+}
+.map_card
+{
+    width: 19rem;
+    border: 9px solid white;
+
+}
+
+.responsive-map{
+    overflow: hidden;
+    padding-bottom:82.25%;
+    position:relative;
+    height:0;
+    }
+    .responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+    .checked {
+        color: orange;
+      }
+.rating_color
+{
+    color: white;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.rating_div
+{
+    padding:20px;
+}
+.rating_phone
+{
+    color: white;
+    font-size: 49px;
+    font-weight: 700;
+    padding: 23px;
+}
+.phone
+{
+    font-size: 50px;
+    width: 76px;
+    background-color: #FF3333;
+    padding: 12px;
+    border-radius: 43px;
+}
+.phone_footer
+{
+background-color: #cc3333;
+    color: white;
+    padding: 6px;
+    border-radius: 43px;
+    margin-top: 13px;
+}
+
+.banner_mapnumber
+{
+    color: white;
+    background-color: #cc3333;
+    margin-top: 166px;
+    
+    margin-left: 72px;
+    width: 173px;
+    height: 45px;
+    padding: 4px;
+    font-size: -7px;
+    /* font-weight: 100; */
+    /* height: 52px; */
+    border-radius: 63px;
+    position: relative;
+}
+.phonemap
+{
+    background-color: #FF3333;
+    padding: 7px;
+    border-radius: 43px;
+}
+
+.phonecard
+{
+    background-color: #FF3333;
+    padding: 10px;
+    border-radius: 43px;
+}
+
+
+
+.rating_color_map
+{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+}
+.percent
+{
+color:#2A4FB5
+}
+.icons_align
+{
+    text-align:center;
+}
+.fontremovals
+{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+  
+ 
+  .footer_icon_margin
+  {
+    color:#cc3333;
+    margin-right:17px;
+  }
+
+
+ 
+   @media only screen and (max-width: 600px) {
+    .banner_responsive
+    {
+        margin-left: -25px;
+        border-radius: 63px;
+        width: 228px;
+        /* margin-top: -19px; */
+        height: 60px;
+        padding: 8px;
+    
+    } 
+  .rating_responsive{color: white;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 0px;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+    /* .phone_responsive{
+      font-size: 36px;
+      background-color: red;
+      padding: 6px;
+      width: 55px;
+      height: 52px;
+      border-radius: 82px;
+    }
+    .rating_color_responsive
+    {
+      color: white;
+      font-weight: 600;
+      font-size: 24px;
+      padding: 0px;
+    } */
+   }
+@media only screen and (max-width: 600px) {
+  .phone_responsive{
+    font-size: 33px;
+    /* padding-bottom: 32px; */
+    /* margin-top: -51px; */
+    background-color: red;
+    padding: 6px;
+    width: 48px;
+    height: 45px;
+    border-radius: 82px
+  }
+  .rating_color_responsive
+  {
+    color: white;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 3px;
+  }
+ }
+.internet
+{
+    height: 86px;
+    margin-right: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .widthinternet
+  {
+      width:150px;
+      color:white;
+      font-size:10px;
+
+  }
+  .para_responsive1{
+    margin-top:-47px;
+    
+       }
+
+}
+@media only screen and (max-width:600px) {
+    .head_responsive{
+        font-weight: 700;
+        font-size: 27px!important;
+        margin-top:0px!important;
+   
+    }
+}
+ @media only screen and (max-width:600px) {
+    
+    .para_responsive{
+        font-size: 13px!important;
+        
+           }
+           .internetres
+{
+    height:25px;
+}
+
+}
+@media only screen and (max-width: 600px) {
+    .imag_responsive
+    {
+        width:100%;
+    }
+    .loginbody_responsive 
+{
+  
+    background-size: 190%,100%;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.internetpadding
+{
+    padding-left: 13px;
+    padding-bottom: 17px;
+}
+.padding_responsive 
+{
+   padding:0px;
+}
+}
+
+.bottom_baner_text
+{
+    background-color: #ffffff36;
+    border-radius: 17px;
+    width: 254px;
+    text-align: center;
+    padding: 6px;
+    color:white;
+}
+
+.cardnumber
+{
+    color: white;
+    background-color: #cc3333;
+   
+    
+   
+    width: 173px;
+    height: 45px;
+    padding: 4px;
+    font-size: -7px;
+ 
+    border-radius: 63px;
+    position: relative;
+}
+.imagecontentcolor
+{
+    color:white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .width-xs
+    {
+        font-size:10px;
+        width:150px;
+    }
+    
+}
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+
+/* h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 400;
+  color: #f6eac1;
+  margin: 3rem 0 0 0;
+}
+
+h1 span {
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
+  color: #262626;
+}
+
+p, */
+/* q {
+  font-size: 1.2rem;
+}
+
+q {
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+p {
+  color: #f6eac1;
+} */
+/* body{
+    background-color:607d8b0d;
+} */
+.customer-revs {
+  margin: 0 auto 0 auto;
+}
+
+/* .rectangle {
+  width: 40%;
+  height: 100vh;
+  background: #f6eac1;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
+
+/* slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 60rem;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 2rem 5rem 0 5rem;
+  text-align: left;
+}
+
+.mySlidesContainer {
+  min-height: 5rem;
+  padding: 3.5rem 2.5rem 2rem 3.5rem;
+  background: #fffbfb9c;
+}
+
+/* next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 55%;
+  width: auto;
+  margin-top: -1.875rem;
+  padding: 1rem;
+  color: #232323;
+  font-weight: bold;
+  font-size: 3rem;
+  border-radius: 3px;
+  user-select: none;
+  transition: 0.4s;
+}
+
+/* position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px;
+}
+
+/* on hover, add a black bg color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #000; /* fallback color */
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f6eac1;
+  text-decoration: none;
+}
+
+/* the dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 0 1.25rem;
+}
+
+/* the dots/bullets/indicators */
+.dot {
+  height: 0.9375rem;
+  width: 0.9375rem;
+  margin: 0 2px;
+  background-color: #0066cc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.4s ease;
+}
+
+/* add bg color to the active dot/circle */
+.active {
+    background-color: #cc3333;
+}
+.reviews
+{
+    font-weight: 500;
+    /* padding: 54px; */
+    
+    padding-top: 41px;
+    margin-left: 82px;
+    color: #cc3333;
+   
+    font-size: 33px;
+}
+.reviewsimage
+{
+    border-radius: 50%;
+    width: 131px;
+    height: 130px;
+    background-color: #cc3333;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .reviewres
+    {
+        border-radius: 50%;
+        width: 109px;
+        height: 97px;
+    }
+    .mySlides{
+        padding:0px;
+    }
+    .reviewsimageres
+{
+    border-radius: 50%; width:97px;height: 97px;
+}
+.row {
+    display: -ms-flexbox;
+    display: block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+}
+
+.exclamation
+{
+    border-radius: 50%; 
+    border-radius: 50%;
+    width: 103px;
+    height: 94px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .excres
+    {
+        color: white;
+        margin-left: 0px;
+
+    }
+ 
+}
+.exc
+{
+    color: white;
+    margin-left: 64px;
+
+}
+hr {
+    margin-top: 0rem;
+    margin-bottom: -2rem;
+    border: 12;
+    border-top: 5px solid #cc3333;
+    width: 56px;
+    float: left;
+}
+
+.carosal_padding
+{
+    padding-left:61px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .carosal_text
+    {
+        text-align:center;
+        padding-left:0px;
+    }
+    .fito-align
+    {
+        text-align:center;
+    }
+    .vrstyleres
+{
+    
+    height: 0px !important;;
+}
+}
+.vrstyle
+{
+    border: 1px solid #1275dbe8;
+    color: #2222af;
+    margin: 10px;
+    height:100px;
+}
+.vrstyle1
+{
+    border: 1px solid white;
+    color: white;
+   
+}
+.containertrusted
+{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.salfordstyle
+{
+    font-size: 47px;
+   
+    font-weight: 700;
+}
+
+.salfordpara
+{
+    font-size: 15px;
+    margin-top: 23px;
+}
+.baner_numbericon
+{
+    text-decoration: none;
+    text-align: center;
+}
+@media only screen and (max-width: 320px) {
+
+    .mapcardresponsive
+    {
+        width: 202px;
+        height: 182px;
+    }
+    .mapcardbody
+    {
+       
+        width: 184px!important;
+        height: 10px!important;
+    }
+    .mapbannerresponsive
+    {
+        color: white;
+    background-color: #cc3333;
+    margin-top: 52px;
+    margin-left: 0px!important;
+   
+    padding: 4px;
+    font-size: -7px;
+   
+    border-radius: 63px;
+    position: relative;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+
+
+    .footermailres
+    {
+        color: black;
+        font-size: 10px;
+        font-weight: 500;
+        padding: 0px;
+    }
+    .fontoffooter
+    {
+        font-size:10px;
+    }
+.rating-res
+{
+    padding:0px;
+    margin-left: -32px;
+}
+
+
+
+    
+}
+
+.margin-bottom-bottombanne
+{
+    margin-bottom:20px;
+}
+
+
+@media only screen and (max-width:1024px) {
+
+
+    .sanfoldfond
+    {
+        font-size: 38px;
+        margin-top:-30px;
+    }
+    .sanfoldpara
+    {
+        
+        margin-top:-67px;
+    }
+}
+
+
+@media only screen and (max-width: 300px)
+{
+.loginbody_responsivesxs {
+    background-size: 322%,100%;
+    background-repeat: no-repeat;
+    height: 437px;
+}
+}
